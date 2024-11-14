@@ -40,19 +40,13 @@ index.html
 
 ## Code Structure
 
-- 
-
-index.html
+- index.html
 
  - Main HTML structure
-- 
-
-style.css
+- style.css
 
  - Styling with CSS variables for theming
-- 
-
-app.js
+- app.js
 
  - Core application logic and API integration
 
