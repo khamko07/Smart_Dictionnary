@@ -53,3 +53,7 @@ index.html
 ## License
 
 © 2025 Khamko. All rights reserved.
+
+## Demo
+
+Link: https://khamko07.github.io/Smart_Dictionnary/
