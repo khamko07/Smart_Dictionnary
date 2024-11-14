@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khamko Dictionary</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Smart Dictionary</h1>
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+        </header>
+
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Enter a word...">
+            <button class="voice-search-btn" aria-label="Voice search">
+                <i class="fas fa-microphone"></i>
+            </button>
+            <button class="search-btn" aria-label="Search">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+
+        <div class="word-of-day">
+            <h2>Word of the Day</h2>
+            <div id="wod-content"></div>
+        </div>
+
+        <div class="result-container">
+            <!-- Results will be dynamically inserted here -->
+        </div>
+
+        <div class="recent-searches">
+            <h3 class="recent-title">Recent Searches</h3>
+            <div class="recent-list">
+                <!-- Recent searches will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; <script>document.write(new Date().getFullYear())</script>© 2025 Khamko. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
